@@ -1,0 +1,12 @@
+package Producer_Consumer;
+
+public class company {
+	company c;
+public void Produced_item() {
+	
+}
+
+public void consumed_item() {
+	
+}
+}

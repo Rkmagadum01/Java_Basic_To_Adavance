@@ -1,0 +1,17 @@
+package Producer_Consumer;
+
+public class company {
+	int n;
+	boolean flag=false;
+synchronized boolean Produced_item(int n) {
+	this.n=n;
+	System.out.println("Produced :- "+ this.n);
+	flag=true;
+	return flag;
+}
+
+synchronized int consumed_item() {
+	System.out.println("Consumed :- "+ this.n);
+	return this.n;
+}
+}

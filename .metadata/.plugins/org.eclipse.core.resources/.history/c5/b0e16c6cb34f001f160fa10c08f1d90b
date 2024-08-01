@@ -1,0 +1,24 @@
+package Producer_Consumer;
+
+public class consumer extends Thread {
+	
+	company c;
+	
+	consumer(company c)
+	{
+		this.c=c;
+	}
+	
+	@Override
+	public void run() {
+		while(true)
+		{
+			this.c.consumed_item();
+			try {
+				Thread.sleep(200);
+			}catch(Exception e) {
+				
+			}
+		}
+	}
+}
