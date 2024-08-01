@@ -10,8 +10,6 @@ public class Producer extends Thread{
 	@Override
 	public void run() {
 		int i=1;
-		Integer j= null;
-		boolean b;
 		while(true)
 		{
 		try {
