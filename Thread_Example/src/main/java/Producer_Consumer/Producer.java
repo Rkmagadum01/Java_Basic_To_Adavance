@@ -11,6 +11,7 @@ public class Producer extends Thread{
 	public void run() {
 		int i=1;
 		Integer j= null;
+		boolean b;
 		while(true)
 		{
 		try {
