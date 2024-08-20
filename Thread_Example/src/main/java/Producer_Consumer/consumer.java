@@ -4,6 +4,7 @@ public class consumer extends Thread {
 	
 	company c;
 	int b;
+	int a=null;
 	
 	consumer(company c)
 	{
