@@ -3,6 +3,7 @@ package Producer_Consumer;
 public class consumer extends Thread {
 	
 	company c;
+	int b;
 	
 	consumer(company c)
 	{
