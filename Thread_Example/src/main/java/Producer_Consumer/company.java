@@ -2,6 +2,7 @@ package Producer_Consumer;
 
 public class company {
 	int n;
+	int a=null;
 	boolean flag=false;
 synchronized void Produced_item(int n) throws Exception {
 	if(flag) {
